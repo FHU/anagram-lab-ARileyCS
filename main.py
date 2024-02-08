@@ -19,7 +19,7 @@ def anagram(word1, word2):
 
 #function to check that the word is not 
 def is_valid_input(word):
-    if (word != ""):
+    if (word != " "):
         return True
     
 
