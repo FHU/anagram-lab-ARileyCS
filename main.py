@@ -4,9 +4,9 @@ def anagram(word1, word2):
     wcount = 0
     angram = False
 
-    for word in word1:
-        wcount = word1.count(word)
-        if wcount == word2.count(word):
+    for character in word1:
+        ccount = word1.count(character)
+        if ccount == word2.count(character):
             angram = True
         else:
             angram = False
@@ -21,6 +21,8 @@ def anagram(word1, word2):
 def is_valid_input(word):
     if (word != " "):
         return True
+    else:
+        return False
     
 
 if __name__ == '__main__':
