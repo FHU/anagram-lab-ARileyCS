@@ -5,7 +5,7 @@ Write a program that:
 - asks the user for two separate inputs.
 - Check if the entered inputs are anagrams.
 - If the inputs are anagrams, return True from the provided function.
-- If the inputs are not anagrams, return Fale from the provided function.
+- If the inputs are not anagrams, return False from the provided function.
 
 Notes  
 -Empty strings are not anagrams  
